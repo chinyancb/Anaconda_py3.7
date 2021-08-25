@@ -2,8 +2,8 @@
 
 ## Docker run
 
-docker run -it \
--p 8080:8888 \
---rm \
---name  test \
---mount type=bind,src=`pwd`,dst=/workdir  \
+docker run -it \\
+-p 8080:8888 \\
+--rm \\
+--name  test \\
+--mount type=bind,src=`pwd`,dst=/workdir
