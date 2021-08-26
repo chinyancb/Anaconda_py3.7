@@ -1,5 +1,7 @@
 # anaconda_py3.7
 
-## Docker run
+## image build
+docker build -t \<your image name\> ./
 
-docker run -it -p 8080:8888 --rm --name \<name\> --mount type=bind,src=`pwd`,dst=/workdir
+## Docker run
+docker run -it -p 8080:8888 --rm --name \<name\> --mount type=bind,src=\`pwd\`,dst=/workdir
